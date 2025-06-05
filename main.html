@@ -2,14 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Gaming Tournament Stats</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #f4f4f4;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #ddd;
+        }
+        tr:hover {
+            background-color: #ffcccb;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+    <table>
+        <thead>
+            <tr>
+                <th>Player Name</th>
+                <th>Game</th>
+                <th>Score</th>
+                <th>Rank</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aarav</td>
+                <td>Valorant</td>
+                <td>980</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Sanya</td>
+                <td>CS:GO</td>
+                <td>915</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Rohan</td>
+                <td>Fortnite</td>
+                <td>890</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Zoya</td>
+                <td>FIFA 23</td>
+                <td>875</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
